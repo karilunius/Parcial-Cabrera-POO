@@ -37,7 +37,11 @@ public class Casas extends Propiedad implements Comparable{
 
     @Override
     public boolean sePuedeVender() {
-        return false;
+        if (getEstaHipotecada() == true) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
     //compareto

@@ -7,8 +7,8 @@ public class Duenio {
     //constructor
 
 
-    public Duenio() {
-    }
+    //public Duenio() {
+    //}
 
     public Duenio(String nombre, String apellido, Integer cuil) {
         this.nombre = nombre;

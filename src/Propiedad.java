@@ -73,7 +73,4 @@ public abstract class Propiedad {
     public boolean sePuedeVender() {
         return false;
     }
-
-
-
 }

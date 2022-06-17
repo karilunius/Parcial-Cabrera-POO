@@ -39,7 +39,7 @@ public class Campos extends Propiedad{
     }
 
     public boolean campoAptoCultivo( Double cantidadHect){
-        if(this.cantidadHect> 10){
+        if(this.getCantidadHect() > 10){
             return true;
     }else {
             return false;
