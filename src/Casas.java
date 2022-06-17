@@ -51,8 +51,10 @@ public class Casas extends Propiedad implements Comparable{
         Casas casaCasteada=(Casas)obj;
         if (this.cantidadAmbiente==casaCasteada.cantidadAmbiente) {
             return 0;
-        }else {
+        }else if (this.cantidadAmbiente> casaCasteada.cantidadAmbiente){
             return 1;
+        }else{
+            return -1;
         }
 
     }
